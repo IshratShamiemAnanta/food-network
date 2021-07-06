@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+.flex{
+  display: flex;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.half-width{
+  width: 50%;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+header{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+header h4{
+  color: #5B5B5B;
+  font-size: 30px;
+}
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li a{
+  display: inline-block;
+  font-size: 25px;
+  padding: 20px 30px;
+  color: #5B5B5B;
+}
+nav ul li a:hover{
+  background-color: #FEF3ED;
+}
+.logo{
+  width: 16%;
+  margin-left: 100px;
+}
+nav{
+  margin-right: 100px;
+  width: 84%;
+}
+/* banner-section */
+.banner-section{
+  margin: 100px;
+}
+.banner-content{
+  margin-left: 100px;
+}
+.banner-img{
+  margin-right: 100px;
+}
+.banner-content h1{
+  font-size: 62px;
+  color: #575757;
+}
+.banner-content p{
+  margin: 30px 170px 0 0;
+  font-size: 20px;
+  color: #828282;
+  line-height: 1.6;
+}
+.link-button{
+  display: inline-block;
+  color: white;
+  font-size: 22px;
+  background-image: linear-gradient(#FBA24F,#FF1E1E);
+  width: 200px;
+  height: 60px;
+  padding: 20px 30px;
+  border-radius: 40px;
+  margin-top: 30px;
+
+}
+.orange-color{
+  color: #FBA24F;
+}
+/* about-section */
+.about-section{
+  margin: 100px 0;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-information{
+  margin: 0 100px;
+}
+.about-img{
+  margin-left: 100px;
+}
+.about-img img{
+  height: 700px;
+  margin: 100px 100px 0 100px;
+}
+.about-content{
+  margin: 200px 100px 0 100px;
+}
+.about-content h3{
+  color:#707070;
+  font-size: 40px;
+}
+.about-content p{
+  color: #18191F;
+  font-size: 18px;
+  margin: 100px 0 150px;
+  line-height: 1.6;
+  text-align: justify;
+}
+/* recipes-section */
+.recipes-section{
+  margin: 100px;
+}
+.recipes-heading{
+  text-align: center;
+  margin: 50px 0;
+  
+}
+.recipes-heading h3{
+  color: #676767;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.recipes-heading p{
+  color: #252525;
+  font-size: 18px;
+}
+.recipe{
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 10px 5px lightgray;
+}
+.recipe1{
+  margin-right: 30px;
+}
+.recipe3{
+  margin-left: 30px;
+}
+.recipe-content h5{
+  margin: 15px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+.recipe-content p{
+  font-size: 18px;
+  line-height: 1.6;
+}
+/* counter-section */
+.counter-section{
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 10px 5px lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+.counter{
+  margin: 100px 0;
+}
+.counter h2{
+  font-size: 48px;
+}
+/* testimonial-section */
+.testimonial-section{
+  margin: 100px 0;
+  background-image: url(images/client-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.testimonial-heading{
+  text-align: center;
+  margin: 50px 0 80px;
+}
+.testimonial-heading h3{
+  color: #676767;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.testimonial-heading h5{
+  color: #252525;
+  font-size: 25px;
+}
+.client-feedback p{
+  color: #252525;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 400px;
+}
+/* subscription-section */
+.subscription-section{
+  margin: 100px 0;
+  background: #FEF3ED;
+  padding: 100px 0;
+}
+.subscription-heading{
+  text-align: center;
+  margin: 50px 0 80px;
+}
+.subscription-heading h3{
+  color: #676767;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.social-medias{
+  text-align: center;
+  margin: 0 auto 80px;
+  border-radius: 40px;
+}
+.social-media{
+  margin: 30px;
+}
+.social-media a{
+  text-decoration: none;
+  color: #FBA24F;
+  font-size: 25px;
+}
+.social-media h5{
+  color: #252525;
+  font-size: 25px;
+}
+footer{
+  margin-top: 100px ;
+  background: #0B0D17;
+}
+.footer-content{
+  text-align: center;
+  padding: 100px 0;
+}
+.footer-content h4{
+  margin: 20px 0 60px;
+  color: #5B5B5B;
+  font-size: 30px;
+
+}
+.footer-content p{
+  color: white;
+  font-size: 18;
+  margin-bottom: 50px;
+}

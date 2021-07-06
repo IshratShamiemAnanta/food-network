@@ -179,7 +179,6 @@ nav{
 }
 /* testimonial-section */
 .testimonial-section{
-  margin: 100px 0;
   background-image: url(images/client-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +205,6 @@ nav{
 }
 /* subscription-section */
 .subscription-section{
-  margin: 100px 0;
   background: #FEF3ED;
   padding: 100px 0;
 }
@@ -237,7 +235,6 @@ nav{
   font-size: 25px;
 }
 footer{
-  margin-top: 100px ;
   background: #0B0D17;
 }
 .footer-content{
